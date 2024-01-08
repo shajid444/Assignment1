@@ -242,32 +242,24 @@
     width: 1400px;
     height: 733 5px;
     margin: 140px;
+
+    
 }
 
 .s6-1 {
 
+    
     text-align: center;
 
 }
 
-.im1 {
-    img width: 429px;
-    height: 433px;
-    flex-shrink: 0;
-    border-radius: 16px 16px 0px 0px;
-    background: url('/resources/Group\ 44.png'), lightgray -59.98px 0px / 151.553% 100%;
-    background-repeat: no-repeat;
-}
-
 .s62 {
-
-    border-radius: 16px 0px 16px 16px;
-    background: #F00;
-    width: 1320px;
-    height: 229px;
-    flex-shrink: 0;
-    /* background-position: bottom; */
+   
+    display: flex;
     /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* section7 */
@@ -430,4 +422,3 @@
     width: 1320px;
     height: 1px;
 }
-

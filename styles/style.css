@@ -44,8 +44,8 @@
 /* section 2 style */
 .section2 {
 
-    /* width: 1600px; */
-    /* height: 7335px; */
+    width: 1500px;
+    height: 733 5px;
     background: #FFF;
 }
 
@@ -289,14 +289,16 @@
     line-height: 32px;
     /* 160% */
 }
-.s7-img{
-    display: flex; 
+
+.s7-img {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+
 }
-div img{
+
+.s7-img img {
 
     border: 2px solid gray;
     border-radius: 13px;
@@ -306,7 +308,126 @@ div img{
     transition: 400ms;
 }
 
-div img:hover{
+.s7-img img:hover {
     filter: grayscale(1);
     transform: scale(1.03);
 }
+
+/* section8 */
+
+.section8 {
+
+    justify-content: center;
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+    margin: 140px;
+
+    padding: 50px;
+}
+
+#s8t {
+
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.inn {
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-left: 320px;
+
+
+}
+
+.inn1 {
+
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.inn2 {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.footer {
+    margin: 140px;
+    padding: 150px;
+    width: 1300px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+
+}
+
+.ft1 {
+    justify-content: space-between;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.ft2 {
+
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+    padding-left: 50%;
+
+}
+
+.ft3 {
+    /* padding: 50px; */
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+}
+

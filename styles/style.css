@@ -232,7 +232,81 @@
     border-radius: 463px;
     border: 15px solid #F00;
 }
-.im{
+
+.im {
     padding: 49px;
 }
 
+/* section 6 style */
+.section6 {
+    width: 1400px;
+    height: 733 5px;
+    margin: 140px;
+}
+
+.s6-1 {
+
+    text-align: center;
+
+}
+
+.im1 {
+    img width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url('/resources/Group\ 44.png'), lightgray -59.98px 0px / 151.553% 100%;
+    background-repeat: no-repeat;
+}
+
+.s62 {
+
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    /* background-position: bottom; */
+    /* display: flex; */
+}
+
+/* section7 */
+.section7 {
+    width: 1400px;
+    height: 733 5px;
+    background: #FFF;
+    margin: 140px;
+    padding-left: 150px;
+}
+
+.s7p {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.s7-img{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+div img{
+
+    border: 2px solid gray;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px rgb(34, 24, 24);
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}

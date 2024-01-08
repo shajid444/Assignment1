@@ -96,7 +96,7 @@
     flex-shrink: 0;
     padding: 140px;
 
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
 
 }
@@ -239,6 +239,7 @@
 
 /* section 6 style */
 .section6 {
+    
     width: 1400px;
     height: 733 5px;
     margin: 140px;
@@ -260,6 +261,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 /* section7 */

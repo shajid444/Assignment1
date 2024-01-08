@@ -95,7 +95,7 @@
     height: 600px;
     flex-shrink: 0;
     padding: 140px;
-    
+
     background-image: url('/resources/Vectorrr.png');
     background-repeat: no-repeat;
 
@@ -126,7 +126,7 @@
 
 #bt {
     color: #FFF;
-    text-align:left;
+    text-align: left;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -134,18 +134,19 @@
     line-height: normal;
     /* text-transform: uppercase; */
 }
-.ss3{
+
+.ss3 {
     fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     display: flex;
     justify-content: center;
-     /* width: 319.83px; */
+    /* width: 319.83px; */
     /* height: 464.662px; */
     /* padding: 10px; */
     /* flex-direction: column; */
 
 }
 
-#s3img{
+#s3img {
     /* display: flex; */
     /* width: 319.83px; */
     /* height: 464.662px; */
@@ -154,5 +155,84 @@
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-shrink: 0; */
-    
+
 }
+
+/* section 4 style */
+
+.s4 {
+    padding: 140px;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto 140px;
+    width: 1200px;
+    height: 300px;
+    /* flex-shrink: 0; */
+    background-color: rgb(242, 208, 214);
+}
+
+.p4 {
+    text-align: center;
+
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* text-transform: capitalize; */
+}
+
+.tt4 {
+    color: red;
+}
+
+.b4 {
+
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* section 5 */
+
+.p5 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.section5 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 1400px;
+    height: 733 5px;
+    margin: 140px;
+}
+
+.s5-2 {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.im{
+    padding: 49px;
+}
+

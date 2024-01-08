@@ -1,0 +1,41 @@
+.header {
+
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    margin: 50px 140px;
+    border: 16px;
+}
+
+.title {
+
+    padding: 177px 344px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 632px;
+}
+
+#tit1 {
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#tit2 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
